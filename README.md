@@ -39,3 +39,26 @@ cd getgrass_bot && \
 python3 main.py
 ```
 That's it! The bot will start running. You can close the terminal as it's running in a screen session.
+
+use socks5 try 443 port 
+if didnt work unset proxy and try another one
+```
+unset http_proxy
+unset https_proxy
+
+```
+
+set socks5
+
+```
+export http_proxy=socks5://199.102.105.242:443
+```
+and then test it
+
+```
+curl -I https://www.google.com
+curl -I http://www.google.com
+```
+
+
+
