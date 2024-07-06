@@ -16,7 +16,7 @@
 2. Press `F12` to open the console.
 3. Enter the following command to get UserID:
 ```
-   localStorage.userID
+   localStorage.userId
 ```
 Running the Bot
 Connect to your server.
